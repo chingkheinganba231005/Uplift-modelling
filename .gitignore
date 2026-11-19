@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+!tests/data/
+*.duckdb
+*.duckdb.wal
+.DS_Store
+*.egg-info/

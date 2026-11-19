@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uplift"
+version = "1.0.0"
+description = "Uplift modelling and profit-based targeting on the Criteo uplift trial"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb==2.0.0",
+    "econml==0.17.1",
+    "lightgbm==4.7.0",
+    "matplotlib==3.11.2",
+    "numpy==2.5.5",
+    "pandas==3.1.1",
+    "pyarrow==26.0.1",
+    "scikit-learn==1.9.1",
+    "scipy==1.18.1",
+]
+
+[project.optional-dependencies]
+app = ["streamlit==1.67.0", "altair==6.3.0"]
+dev = ["pytest==9.2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
