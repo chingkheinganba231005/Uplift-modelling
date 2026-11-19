@@ -1,0 +1,1036 @@
+{
+  "outcome": "conversion",
+  "selected_model": "causal_forest",
+  "cost_per_treated_user": 0.005,
+  "value_per_conversion": 40.0,
+  "population": 1000000,
+  "test_ate": 0.0011791556307554183,
+  "break_even_cost_per_user": 0.04716622523021673,
+  "treat_all_per_user": 0.04216622523021673,
+  "treat_all_ci": [
+    0.03632806606005093,
+    0.04760106487558238
+  ],
+  "treat_none_per_user": 0.0,
+  "policies": {
+    "response": {
+      "model": "response",
+      "val_fraction": 0.5589667225260755,
+      "threshold": 0.0001105886543918847,
+      "test_fraction": 0.5589650676549859,
+      "test_profit_per_user": 0.043033328301198,
+      "test_incremental_per_user": 0.0011457038409868232,
+      "in_sample_best_fraction_on_test": 0.49764318479111486,
+      "in_sample_best_profit_on_test": 0.04308355178427331,
+      "test_profit_ci": [
+        0.037165585397236967,
+        0.04845580910134404
+      ],
+      "gain_vs_treat_all_ci": [
+        0.0003571069775595159,
+        0.001462983101056696
+      ],
+      "p_not_better_than_treat_all": 0.0
+    },
+    "causal_forest": {
+      "model": "causal_forest",
+      "val_fraction": 0.6514984411577274,
+      "threshold": 5.456638541967797e-05,
+      "test_fraction": 0.651086244242918,
+      "test_profit_per_user": 0.04177862232931661,
+      "test_incremental_per_user": 0.00112585133876328,
+      "in_sample_best_fraction_on_test": 0.9999460175811086,
+      "in_sample_best_profit_on_test": 0.04216851702282901,
+      "test_profit_ci": [
+        0.03584985121796317,
+        0.04672953107117706
+      ],
+      "gain_vs_treat_all_ci": [
+        -0.0011789142992064806,
+        0.0003786288917530065
+      ],
+      "p_not_better_than_treat_all": 0.8166666666666667
+    },
+    "random": {
+      "model": "random",
+      "val_fraction": 0.9991499499697101,
+      "threshold": 0.0008452403357690486,
+      "test_fraction": 0.9991916937144802,
+      "test_profit_per_user": 0.04217122945929146,
+      "test_incremental_per_user": 0.0011791796981965963,
+      "in_sample_best_fraction_on_test": 0.9985535571732803,
+      "in_sample_best_profit_on_test": 0.04242548343616013,
+      "test_profit_ci": [
+        0.03626576965314743,
+        0.047516312961873086
+      ],
+      "gain_vs_treat_all_ci": [
+        -0.0001560861164724762,
+        0.0002370404607678929
+      ],
+      "p_not_better_than_treat_all": 0.5433333333333333
+    }
+  },
+  "scenarios": {
+    "base": {
+      "cost": 0.005,
+      "value": 40.0,
+      "treat_all_per_user": 0.04216622523021673,
+      "response": {
+        "model": "response",
+        "val_fraction": 0.5589667225260755,
+        "threshold": 0.0001105886543918847,
+        "test_fraction": 0.5589650676549859,
+        "test_profit_per_user": 0.043033328301198,
+        "test_incremental_per_user": 0.0011457038409868232,
+        "in_sample_best_fraction_on_test": 0.49764318479111486,
+        "in_sample_best_profit_on_test": 0.04308355178427331,
+        "test_profit_ci": [
+          0.037165585397236967,
+          0.04845580910134404
+        ],
+        "gain_vs_treat_all_ci": [
+          0.0003571069775595159,
+          0.001462983101056696
+        ],
+        "p_not_better_than_treat_all": 0.0
+      },
+      "causal_forest": {
+        "model": "causal_forest",
+        "val_fraction": 0.6514984411577274,
+        "threshold": 5.456638541967797e-05,
+        "test_fraction": 0.651086244242918,
+        "test_profit_per_user": 0.04177862232931661,
+        "test_incremental_per_user": 0.00112585133876328,
+        "in_sample_best_fraction_on_test": 0.9999460175811086,
+        "in_sample_best_profit_on_test": 0.04216851702282901,
+        "test_profit_ci": [
+          0.03584985121796317,
+          0.04672953107117706
+        ],
+        "gain_vs_treat_all_ci": [
+          -0.0011789142992064806,
+          0.0003786288917530065
+        ],
+        "p_not_better_than_treat_all": 0.8166666666666667
+      },
+      "random": {
+        "model": "random",
+        "val_fraction": 0.9991499499697101,
+        "threshold": 0.0008452403357690486,
+        "test_fraction": 0.9991916937144802,
+        "test_profit_per_user": 0.04217122945929146,
+        "test_incremental_per_user": 0.0011791796981965963,
+        "in_sample_best_fraction_on_test": 0.9985535571732803,
+        "in_sample_best_profit_on_test": 0.04242548343616013,
+        "test_profit_ci": [
+          0.03626576965314743,
+          0.047516312961873086
+        ],
+        "gain_vs_treat_all_ci": [
+          -0.0001560861164724762,
+          0.0002370404607678929
+        ],
+        "p_not_better_than_treat_all": 0.5433333333333333
+      }
+    },
+    "expensive": {
+      "cost": 0.05,
+      "value": 40.0,
+      "treat_all_per_user": -0.002833774769783276,
+      "response": {
+        "model": "response",
+        "val_fraction": 0.1457208188231188,
+        "threshold": 0.0017672272590005186,
+        "test_fraction": 0.14576146849339358,
+        "test_profit_per_user": 0.02958474653882639,
+        "test_incremental_per_user": 0.0009218204990874017,
+        "in_sample_best_fraction_on_test": 0.20213091129830577,
+        "in_sample_best_profit_on_test": 0.03063236945600481,
+        "test_profit_ci": [
+          0.023547112910608202,
+          0.034913558662597384
+        ],
+        "gain_vs_treat_all_ci": [
+          0.03076047617478895,
+          0.034198143567238395
+        ],
+        "p_not_better_than_treat_all": 0.0
+      },
+      "causal_forest": {
+        "model": "causal_forest",
+        "val_fraction": 0.14279374288793859,
+        "threshold": 0.0012595254551170695,
+        "test_fraction": 0.14323930978293706,
+        "test_profit_per_user": 0.030421788473674882,
+        "test_incremental_per_user": 0.0009395938490705433,
+        "in_sample_best_fraction_on_test": 0.1320159716460026,
+        "in_sample_best_profit_on_test": 0.03068913275748926,
+        "test_profit_ci": [
+          0.025061613843980885,
+          0.03502100269649754
+        ],
+        "gain_vs_treat_all_ci": [
+          0.031547378050910894,
+          0.03520196484415662
+        ],
+        "p_not_better_than_treat_all": 0.0
+      },
+      "random": {
+        "model": "random",
+        "val_fraction": 0.9179578343714887,
+        "threshold": 0.08203150510018853,
+        "test_fraction": 0.9179342108038483,
+        "test_profit_per_user": -0.0022081705829112425,
+        "test_incremental_per_user": 0.0010922134989320295,
+        "in_sample_best_fraction_on_test": 0.01888741162166404,
+        "in_sample_best_profit_on_test": 0.0003966306773203163,
+        "test_profit_ci": [
+          -0.0074839256118693015,
+          0.0034898441152650165
+        ],
+        "gain_vs_treat_all_ci": [
+          -0.0007829633582268762,
+          0.00211021325527388
+        ],
+        "p_not_better_than_treat_all": 0.23333333333333334
+      }
+    }
+  },
+  "sensitivity": [
+    {
+      "cost_factor": 0.1,
+      "value_factor": 0.1,
+      "cost": 0.0005,
+      "value": 4.0,
+      "treat_all": 0.004216622523021673,
+      "causal_forest": {
+        "fraction": 0.651086244242918,
+        "profit_per_user": 0.004177862232931661
+      },
+      "response": {
+        "fraction": 0.5589650676549859,
+        "profit_per_user": 0.0043033328301198
+      },
+      "best_blanket": 0.004216622523021673,
+      "gain_vs_best_blanket": -3.876029009001157e-05
+    },
+    {
+      "cost_factor": 0.1,
+      "value_factor": 0.2,
+      "cost": 0.0005,
+      "value": 8.0,
+      "treat_all": 0.008933245046043346,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.008929562957186344
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.008937898832624048
+      },
+      "best_blanket": 0.008933245046043346,
+      "gain_vs_best_blanket": -3.6820888570012617e-06
+    },
+    {
+      "cost_factor": 0.1,
+      "value_factor": 0.5,
+      "cost": 0.0005,
+      "value": 20.0,
+      "treat_all": 0.023083112615108363,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.02307353282290365
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.022982721407378698
+      },
+      "best_blanket": 0.023083112615108363,
+      "gain_vs_best_blanket": -9.579792204714166e-06
+    },
+    {
+      "cost_factor": 0.1,
+      "value_factor": 1.0,
+      "cost": 0.0005,
+      "value": 40.0,
+      "treat_all": 0.046666225230216726,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.046646815932432494
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.04639075903196978
+      },
+      "best_blanket": 0.046666225230216726,
+      "gain_vs_best_blanket": -1.9409297784232782e-05
+    },
+    {
+      "cost_factor": 0.1,
+      "value_factor": 2.0,
+      "cost": 0.0005,
+      "value": 80.0,
+      "treat_all": 0.09383245046043345,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.09379338215149019
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.09320683428115194
+      },
+      "best_blanket": 0.09383245046043345,
+      "gain_vs_best_blanket": -3.9068308943263075e-05
+    },
+    {
+      "cost_factor": 0.1,
+      "value_factor": 5.0,
+      "cost": 0.0005,
+      "value": 200.0,
+      "treat_all": 0.23533112615108365,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.2352330808086633
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.23365506002869837
+      },
+      "best_blanket": 0.23533112615108365,
+      "gain_vs_best_blanket": -9.804534242036089e-05
+    },
+    {
+      "cost_factor": 0.1,
+      "value_factor": 10.0,
+      "cost": 0.0005,
+      "value": 400.0,
+      "treat_all": 0.4711622523021673,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.47096591190395176
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.4677354362746092
+      },
+      "best_blanket": 0.4711622523021673,
+      "gain_vs_best_blanket": -0.00019634039821553317
+    },
+    {
+      "cost_factor": 0.2,
+      "value_factor": 0.1,
+      "cost": 0.001,
+      "value": 4.0,
+      "treat_all": 0.003716622523021673,
+      "causal_forest": {
+        "fraction": 0.3787778308863091,
+        "profit_per_user": 0.003925218490202391
+      },
+      "response": {
+        "fraction": 0.4242156551159782,
+        "profit_per_user": 0.004061229042712529
+      },
+      "best_blanket": 0.003716622523021673,
+      "gain_vs_best_blanket": 0.00020859596718071811
+    },
+    {
+      "cost_factor": 0.2,
+      "value_factor": 0.2,
+      "cost": 0.001,
+      "value": 8.0,
+      "treat_all": 0.008433245046043345,
+      "causal_forest": {
+        "fraction": 0.651086244242918,
+        "profit_per_user": 0.008355724465863322
+      },
+      "response": {
+        "fraction": 0.5589650676549859,
+        "profit_per_user": 0.0086066656602396
+      },
+      "best_blanket": 0.008433245046043345,
+      "gain_vs_best_blanket": -7.752058018002314e-05
+    },
+    {
+      "cost_factor": 0.2,
+      "value_factor": 0.5,
+      "cost": 0.001,
+      "value": 20.0,
+      "treat_all": 0.022583112615108362,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.022573782536278456
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.022557405190166312
+      },
+      "best_blanket": 0.022583112615108362,
+      "gain_vs_best_blanket": -9.330078829906246e-06
+    },
+    {
+      "cost_factor": 0.2,
+      "value_factor": 1.0,
+      "cost": 0.001,
+      "value": 40.0,
+      "treat_all": 0.046166225230216726,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.0461470656458073
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.045965442814757396
+      },
+      "best_blanket": 0.046166225230216726,
+      "gain_vs_best_blanket": -1.9159584409428332e-05
+    },
+    {
+      "cost_factor": 0.2,
+      "value_factor": 2.0,
+      "cost": 0.001,
+      "value": 80.0,
+      "treat_all": 0.09333245046043345,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.09329363186486499
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.09278151806393956
+      },
+      "best_blanket": 0.09333245046043345,
+      "gain_vs_best_blanket": -3.8818595568465564e-05
+    },
+    {
+      "cost_factor": 0.2,
+      "value_factor": 5.0,
+      "cost": 0.001,
+      "value": 200.0,
+      "treat_all": 0.23483112615108365,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.2347333305220381
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.233229743811486
+      },
+      "best_blanket": 0.23483112615108365,
+      "gain_vs_best_blanket": -9.77956290455495e-05
+    },
+    {
+      "cost_factor": 0.2,
+      "value_factor": 10.0,
+      "cost": 0.001,
+      "value": 400.0,
+      "treat_all": 0.4706622523021673,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.4704661616173266
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.46731012005739675
+      },
+      "best_blanket": 0.4706622523021673,
+      "gain_vs_best_blanket": -0.00019609068484072179
+    },
+    {
+      "cost_factor": 0.5,
+      "value_factor": 0.1,
+      "cost": 0.0025,
+      "value": 4.0,
+      "treat_all": 0.002216622523021673,
+      "causal_forest": {
+        "fraction": 0.22349722419542065,
+        "profit_per_user": 0.003493169440042155
+      },
+      "response": {
+        "fraction": 0.30954019491585716,
+        "profit_per_user": 0.003640600712742743
+      },
+      "best_blanket": 0.002216622523021673,
+      "gain_vs_best_blanket": 0.001276546917020482
+    },
+    {
+      "cost_factor": 0.5,
+      "value_factor": 0.2,
+      "cost": 0.0025,
+      "value": 8.0,
+      "treat_all": 0.0069332450460433456,
+      "causal_forest": {
+        "fraction": 0.3787778308863091,
+        "profit_per_user": 0.007661048064961627
+      },
+      "response": {
+        "fraction": 0.420719667868699,
+        "profit_per_user": 0.007906247327231998
+      },
+      "best_blanket": 0.0069332450460433456,
+      "gain_vs_best_blanket": 0.0007278030189182818
+    },
+    {
+      "cost_factor": 0.5,
+      "value_factor": 0.5,
+      "cost": 0.0025,
+      "value": 20.0,
+      "treat_all": 0.021083112615108365,
+      "causal_forest": {
+        "fraction": 0.651086244242918,
+        "profit_per_user": 0.020889311164658305
+      },
+      "response": {
+        "fraction": 0.5589650676549859,
+        "profit_per_user": 0.021516664150599
+      },
+      "best_blanket": 0.021083112615108365,
+      "gain_vs_best_blanket": -0.0001938014504500596
+    },
+    {
+      "cost_factor": 0.5,
+      "value_factor": 1.0,
+      "cost": 0.0025,
+      "value": 40.0,
+      "treat_all": 0.044666225230216725,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.044647814785931716
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.04468949416312024
+      },
+      "best_blanket": 0.044666225230216725,
+      "gain_vs_best_blanket": -1.8410444285008043e-05
+    },
+    {
+      "cost_factor": 0.5,
+      "value_factor": 2.0,
+      "cost": 0.0025,
+      "value": 80.0,
+      "treat_all": 0.09183245046043345,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.0917943810049894
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.0915055694123024
+      },
+      "best_blanket": 0.09183245046043345,
+      "gain_vs_best_blanket": -3.8069455444045275e-05
+    },
+    {
+      "cost_factor": 0.5,
+      "value_factor": 5.0,
+      "cost": 0.0025,
+      "value": 200.0,
+      "treat_all": 0.23333112615108365,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.2332340796621625
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.23195379515984885
+      },
+      "best_blanket": 0.23333112615108365,
+      "gain_vs_best_blanket": -9.704648892114309e-05
+    },
+    {
+      "cost_factor": 0.5,
+      "value_factor": 10.0,
+      "cost": 0.0025,
+      "value": 400.0,
+      "treat_all": 0.4691622523021673,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.468966910757451
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.46603417140575965
+      },
+      "best_blanket": 0.4691622523021673,
+      "gain_vs_best_blanket": -0.00019534154471628762
+    },
+    {
+      "cost_factor": 1.0,
+      "value_factor": 0.1,
+      "cost": 0.005,
+      "value": 4.0,
+      "treat_all": -0.0002833774769783271,
+      "causal_forest": {
+        "fraction": 0.14323930978293706,
+        "profit_per_user": 0.0030421788473674882
+      },
+      "response": {
+        "fraction": 0.14576146849339358,
+        "profit_per_user": 0.002958474653882639
+      },
+      "best_blanket": 0.0,
+      "gain_vs_best_blanket": 0.0030421788473674882
+    },
+    {
+      "cost_factor": 1.0,
+      "value_factor": 0.2,
+      "cost": 0.005,
+      "value": 8.0,
+      "treat_all": 0.004433245046043346,
+      "causal_forest": {
+        "fraction": 0.22349722419542065,
+        "profit_per_user": 0.00698633888008431
+      },
+      "response": {
+        "fraction": 0.30954019491585716,
+        "profit_per_user": 0.007281201425485486
+      },
+      "best_blanket": 0.004433245046043346,
+      "gain_vs_best_blanket": 0.002553093834040964
+    },
+    {
+      "cost_factor": 1.0,
+      "value_factor": 0.5,
+      "cost": 0.005,
+      "value": 20.0,
+      "treat_all": 0.018583112615108362,
+      "causal_forest": {
+        "fraction": 0.3787778308863091,
+        "profit_per_user": 0.019626092451011955
+      },
+      "response": {
+        "fraction": 0.4242156551159782,
+        "profit_per_user": 0.020306145213562648
+      },
+      "best_blanket": 0.018583112615108362,
+      "gain_vs_best_blanket": 0.0010429798359035923
+    },
+    {
+      "cost_factor": 1.0,
+      "value_factor": 1.0,
+      "cost": 0.005,
+      "value": 40.0,
+      "treat_all": 0.04216622523021673,
+      "causal_forest": {
+        "fraction": 0.651086244242918,
+        "profit_per_user": 0.04177862232931661
+      },
+      "response": {
+        "fraction": 0.5589650676549859,
+        "profit_per_user": 0.043033328301198
+      },
+      "best_blanket": 0.04216622523021673,
+      "gain_vs_best_blanket": -0.0003876029009001192
+    },
+    {
+      "cost_factor": 1.0,
+      "value_factor": 2.0,
+      "cost": 0.005,
+      "value": 80.0,
+      "treat_all": 0.08933245046043345,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.08929562957186343
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.08937898832624049
+      },
+      "best_blanket": 0.08933245046043345,
+      "gain_vs_best_blanket": -3.6820888570016086e-05
+    },
+    {
+      "cost_factor": 1.0,
+      "value_factor": 5.0,
+      "cost": 0.005,
+      "value": 200.0,
+      "treat_all": 0.23083112615108364,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.23073532822903653
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.22982721407378692
+      },
+      "best_blanket": 0.23083112615108364,
+      "gain_vs_best_blanket": -9.57979220471139e-05
+    },
+    {
+      "cost_factor": 1.0,
+      "value_factor": 10.0,
+      "cost": 0.005,
+      "value": 400.0,
+      "treat_all": 0.4666622523021673,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.466468159324325
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.4639075903196977
+      },
+      "best_blanket": 0.4666622523021673,
+      "gain_vs_best_blanket": -0.00019409297784228619
+    },
+    {
+      "cost_factor": 2.0,
+      "value_factor": 0.1,
+      "cost": 0.01,
+      "value": 4.0,
+      "treat_all": -0.005283377476978327,
+      "causal_forest": {
+        "fraction": 0.09253408846753208,
+        "profit_per_user": 0.0023406378069116846
+      },
+      "response": {
+        "fraction": 0.10621416291322022,
+        "profit_per_user": 0.0022817315395429003
+      },
+      "best_blanket": 0.0,
+      "gain_vs_best_blanket": 0.0023406378069116846
+    },
+    {
+      "cost_factor": 2.0,
+      "value_factor": 0.2,
+      "cost": 0.01,
+      "value": 8.0,
+      "treat_all": -0.0005667549539566542,
+      "causal_forest": {
+        "fraction": 0.14323930978293706,
+        "profit_per_user": 0.0060843576947349765
+      },
+      "response": {
+        "fraction": 0.14576146849339358,
+        "profit_per_user": 0.005916949307765278
+      },
+      "best_blanket": 0.0,
+      "gain_vs_best_blanket": 0.0060843576947349765
+    },
+    {
+      "cost_factor": 2.0,
+      "value_factor": 0.5,
+      "cost": 0.01,
+      "value": 20.0,
+      "treat_all": 0.013583112615108363,
+      "causal_forest": {
+        "fraction": 0.22349722419542065,
+        "profit_per_user": 0.018024590260699323
+      },
+      "response": {
+        "fraction": 0.33211914599098313,
+        "profit_per_user": 0.018827835176635523
+      },
+      "best_blanket": 0.013583112615108363,
+      "gain_vs_best_blanket": 0.00444147764559096
+    },
+    {
+      "cost_factor": 2.0,
+      "value_factor": 1.0,
+      "cost": 0.01,
+      "value": 40.0,
+      "treat_all": 0.037166225230216725,
+      "causal_forest": {
+        "fraction": 0.3787778308863091,
+        "profit_per_user": 0.03925218490202391
+      },
+      "response": {
+        "fraction": 0.4242156551159782,
+        "profit_per_user": 0.040612290427125296
+      },
+      "best_blanket": 0.037166225230216725,
+      "gain_vs_best_blanket": 0.0020859596718071846
+    },
+    {
+      "cost_factor": 2.0,
+      "value_factor": 2.0,
+      "cost": 0.01,
+      "value": 80.0,
+      "treat_all": 0.08433245046043346,
+      "causal_forest": {
+        "fraction": 0.651086244242918,
+        "profit_per_user": 0.08355724465863322
+      },
+      "response": {
+        "fraction": 0.5589650676549859,
+        "profit_per_user": 0.086066656602396
+      },
+      "best_blanket": 0.08433245046043346,
+      "gain_vs_best_blanket": -0.0007752058018002383
+    },
+    {
+      "cost_factor": 2.0,
+      "value_factor": 5.0,
+      "cost": 0.01,
+      "value": 200.0,
+      "treat_all": 0.22583112615108364,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.22573782536278458
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.2255740519016631
+      },
+      "best_blanket": 0.22583112615108364,
+      "gain_vs_best_blanket": -9.330078829905553e-05
+    },
+    {
+      "cost_factor": 2.0,
+      "value_factor": 10.0,
+      "cost": 0.01,
+      "value": 400.0,
+      "treat_all": 0.4616622523021673,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.46147065645807306
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.45965442814757385
+      },
+      "best_blanket": 0.4616622523021673,
+      "gain_vs_best_blanket": -0.0001915958440942278
+    },
+    {
+      "cost_factor": 5.0,
+      "value_factor": 0.1,
+      "cost": 0.025,
+      "value": 4.0,
+      "treat_all": -0.02028337747697833,
+      "causal_forest": {
+        "fraction": 0.02322638260236014,
+        "profit_per_user": 0.001407974357670033
+      },
+      "response": {
+        "fraction": 0.02198728946409758,
+        "profit_per_user": 0.0015210907809491778
+      },
+      "best_blanket": 0.0,
+      "gain_vs_best_blanket": 0.001407974357670033
+    },
+    {
+      "cost_factor": 5.0,
+      "value_factor": 0.2,
+      "cost": 0.025,
+      "value": 8.0,
+      "treat_all": -0.015566754953956655,
+      "causal_forest": {
+        "fraction": 0.0892722633684243,
+        "profit_per_user": 0.004156848375493833
+      },
+      "response": {
+        "fraction": 0.07000125482311463,
+        "profit_per_user": 0.004117201179263653
+      },
+      "best_blanket": 0.0,
+      "gain_vs_best_blanket": 0.004156848375493833
+    },
+    {
+      "cost_factor": 5.0,
+      "value_factor": 0.5,
+      "cost": 0.025,
+      "value": 20.0,
+      "treat_all": -0.001416887384891638,
+      "causal_forest": {
+        "fraction": 0.14323930978293706,
+        "profit_per_user": 0.015210894236837441
+      },
+      "response": {
+        "fraction": 0.14576146849339358,
+        "profit_per_user": 0.014792373269413194
+      },
+      "best_blanket": 0.0,
+      "gain_vs_best_blanket": 0.015210894236837441
+    },
+    {
+      "cost_factor": 5.0,
+      "value_factor": 1.0,
+      "cost": 0.025,
+      "value": 40.0,
+      "treat_all": 0.022166225230216725,
+      "causal_forest": {
+        "fraction": 0.22349722419542065,
+        "profit_per_user": 0.03493169440042155
+      },
+      "response": {
+        "fraction": 0.30954019491585716,
+        "profit_per_user": 0.036406007127427434
+      },
+      "best_blanket": 0.022166225230216725,
+      "gain_vs_best_blanket": 0.012765469170204824
+    },
+    {
+      "cost_factor": 5.0,
+      "value_factor": 2.0,
+      "cost": 0.025,
+      "value": 80.0,
+      "treat_all": 0.06933245046043346,
+      "causal_forest": {
+        "fraction": 0.3787778308863091,
+        "profit_per_user": 0.07661048064961627
+      },
+      "response": {
+        "fraction": 0.420719667868699,
+        "profit_per_user": 0.07906247327231998
+      },
+      "best_blanket": 0.06933245046043346,
+      "gain_vs_best_blanket": 0.007278030189182813
+    },
+    {
+      "cost_factor": 5.0,
+      "value_factor": 5.0,
+      "cost": 0.025,
+      "value": 200.0,
+      "treat_all": 0.21083112615108365,
+      "causal_forest": {
+        "fraction": 0.651086244242918,
+        "profit_per_user": 0.20889311164658306
+      },
+      "response": {
+        "fraction": 0.5589650676549859,
+        "profit_per_user": 0.21516664150599
+      },
+      "best_blanket": 0.21083112615108365,
+      "gain_vs_best_blanket": -0.0019380145045005959
+    },
+    {
+      "cost_factor": 5.0,
+      "value_factor": 10.0,
+      "cost": 0.025,
+      "value": 400.0,
+      "treat_all": 0.4466622523021673,
+      "causal_forest": {
+        "fraction": 0.9995005732503887,
+        "profit_per_user": 0.4464781478593172
+      },
+      "response": {
+        "fraction": 0.8506324344247673,
+        "profit_per_user": 0.44689494163120236
+      },
+      "best_blanket": 0.4466622523021673,
+      "gain_vs_best_blanket": -0.00018410444285005267
+    },
+    {
+      "cost_factor": 10.0,
+      "value_factor": 0.1,
+      "cost": 0.05,
+      "value": 4.0,
+      "treat_all": -0.04528337747697833,
+      "causal_forest": {
+        "fraction": 0.012108506806968523,
+        "profit_per_user": 0.0010076169024831924
+      },
+      "response": {
+        "fraction": 0.017926810564967127,
+        "profit_per_user": 0.0010795886788995163
+      },
+      "best_blanket": 0.0,
+      "gain_vs_best_blanket": 0.0010076169024831924
+    },
+    {
+      "cost_factor": 10.0,
+      "value_factor": 0.2,
+      "cost": 0.05,
+      "value": 8.0,
+      "treat_all": -0.04056675495395666,
+      "causal_forest": {
+        "fraction": 0.02322638260236014,
+        "profit_per_user": 0.002815948715340066
+      },
+      "response": {
+        "fraction": 0.02198728946409758,
+        "profit_per_user": 0.0030421815618983557
+      },
+      "best_blanket": 0.0,
+      "gain_vs_best_blanket": 0.002815948715340066
+    },
+    {
+      "cost_factor": 10.0,
+      "value_factor": 0.5,
+      "cost": 0.05,
+      "value": 20.0,
+      "treat_all": -0.02641688738489164,
+      "causal_forest": {
+        "fraction": 0.09253408846753208,
+        "profit_per_user": 0.011703189034558421
+      },
+      "response": {
+        "fraction": 0.10621416291322022,
+        "profit_per_user": 0.0114086576977145
+      },
+      "best_blanket": 0.0,
+      "gain_vs_best_blanket": 0.011703189034558421
+    },
+    {
+      "cost_factor": 10.0,
+      "value_factor": 1.0,
+      "cost": 0.05,
+      "value": 40.0,
+      "treat_all": -0.002833774769783276,
+      "causal_forest": {
+        "fraction": 0.14323930978293706,
+        "profit_per_user": 0.030421788473674882
+      },
+      "response": {
+        "fraction": 0.14576146849339358,
+        "profit_per_user": 0.02958474653882639
+      },
+      "best_blanket": 0.0,
+      "gain_vs_best_blanket": 0.030421788473674882
+    },
+    {
+      "cost_factor": 10.0,
+      "value_factor": 2.0,
+      "cost": 0.05,
+      "value": 80.0,
+      "treat_all": 0.04433245046043345,
+      "causal_forest": {
+        "fraction": 0.22349722419542065,
+        "profit_per_user": 0.0698633888008431
+      },
+      "response": {
+        "fraction": 0.30954019491585716,
+        "profit_per_user": 0.07281201425485487
+      },
+      "best_blanket": 0.04433245046043345,
+      "gain_vs_best_blanket": 0.025530938340409648
+    },
+    {
+      "cost_factor": 10.0,
+      "value_factor": 5.0,
+      "cost": 0.05,
+      "value": 200.0,
+      "treat_all": 0.18583112615108366,
+      "causal_forest": {
+        "fraction": 0.3787778308863091,
+        "profit_per_user": 0.19626092451011953
+      },
+      "response": {
+        "fraction": 0.4242156551159782,
+        "profit_per_user": 0.20306145213562646
+      },
+      "best_blanket": 0.18583112615108366,
+      "gain_vs_best_blanket": 0.010429798359035874
+    },
+    {
+      "cost_factor": 10.0,
+      "value_factor": 10.0,
+      "cost": 0.05,
+      "value": 400.0,
+      "treat_all": 0.4216622523021673,
+      "causal_forest": {
+        "fraction": 0.651086244242918,
+        "profit_per_user": 0.4177862232931661
+      },
+      "response": {
+        "fraction": 0.5589650676549859,
+        "profit_per_user": 0.43033328301198
+      },
+      "best_blanket": 0.4216622523021673,
+      "gain_vs_best_blanket": -0.0038760290090011917
+    }
+  ],
+  "n_bootstrap": 300
+}

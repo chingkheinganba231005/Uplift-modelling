@@ -41,5 +41,12 @@ N_BOOTSTRAP = 300
 COST_PER_TREATED_USER = 0.005
 VALUE_PER_CONVERSION = 40.0
 SENSITIVITY_FACTORS = [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+# Named scenarios reported with bootstrap intervals: the base case, and an
+# expensive campaign whose cost per user is just above the break-even point
+# of treating everyone (value per conversion x ATE, about $0.047).
+SCENARIOS = {
+    "base": {"cost": COST_PER_TREATED_USER, "value": VALUE_PER_CONVERSION},
+    "expensive": {"cost": 10 * COST_PER_TREATED_USER, "value": VALUE_PER_CONVERSION},
+}
 # Population used to express profit in money terms.
 POPULATION = 1_000_000
