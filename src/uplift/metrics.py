@@ -116,6 +116,41 @@ def summary(c: Curve) -> dict[str, float]:
     }
 
 
+def rank_order(score: np.ndarray, seed: int = 0) -> np.ndarray:
+    """Indices sorting ``score`` from high to low, with ties broken at random.
+
+    Tree models give many users exactly the same score. Breaking those ties
+    by row order would be dangerous here: the raw file is sorted in runs of
+    treated and control users, so a cut through a block of ties could put
+    only treated or only control users on one side of it.
+    """
+    tiebreak = np.random.default_rng(seed).random(len(score))
+    return np.lexsort((tiebreak, -np.asarray(score, dtype=float)))
+
+
+def deciles(score: np.ndarray, t: np.ndarray, y: np.ndarray, seed: int = 0) -> list[dict]:
+    """Outcome rates and uplift by decile of the score (decile 1 = highest scores).
+
+    relative_lift = rate_treated / rate_control - 1, with a delta-method
+    standard error.
+    """
+    order = rank_order(score, seed)
+    rows = []
+    for d, idx in enumerate(np.array_split(order, 10), start=1):
+        tt, yy = t[idx], y[idx]
+        n1, n0 = int((tt == 1).sum()), int((tt == 0).sum())
+        rt = float(yy[tt == 1].mean()) if n1 else float("nan")
+        rc = float(yy[tt == 0].mean()) if n0 else float("nan")
+        se = np.sqrt(rt * (1 - rt) / n1 + rc * (1 - rc) / n0) if n1 and n0 else float("nan")
+        rel = rt / rc - 1 if rc > 0 else float("nan")
+        rel_se = ((rt / rc) * np.sqrt((1 - rt) / (rt * n1) + (1 - rc) / (rc * n0))
+                  if rc > 0 and rt > 0 else float("nan"))
+        rows.append({"decile": d, "n": len(idx), "n_treated": n1, "n_control": n0,
+                     "rate_treated": rt, "rate_control": rc, "uplift": rt - rc, "se": se,
+                     "relative_lift": rel, "relative_lift_se": rel_se})
+    return rows
+
+
 def group_poisson_weights(groups: np.ndarray, n_groups: int,
                           rng: np.random.Generator) -> np.ndarray:
     """Poisson(1) bootstrap weights drawn per group and copied to its rows.

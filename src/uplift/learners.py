@@ -261,7 +261,7 @@ def make_learners(seed: int = config.SEED) -> dict[str, object]:
 
 LABELS = {
     "random": "Random targeting",
-    "response": "Response model (who converts)",
+    "response": "Response model",
     "s_learner": "S-learner",
     "t_learner": "T-learner",
     "x_learner": "X-learner",

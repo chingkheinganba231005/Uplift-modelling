@@ -104,3 +104,25 @@ def test_group_weights_are_shared_within_group():
     groups = np.array([0, 0, 1, 2, 2, 2])
     w = metrics.group_poisson_weights(groups, 3, rng)
     assert w[0] == w[1] and w[3] == w[4] == w[5]
+
+
+def test_deciles_break_ties_at_random_not_by_row_order():
+    # all scores tied and rows sorted by treatment, as in the raw file
+    n = 10000
+    t = np.r_[np.ones(8500, int), np.zeros(1500, int)]
+    y = np.zeros(n, int)
+    d = metrics.deciles(np.zeros(n), t, y, seed=0)
+    shares = [r["n_treated"] / r["n"] for r in d]
+    assert min(shares) > 0.8 and max(shares) < 0.9
+
+
+def test_deciles_values():
+    rng = np.random.default_rng(7)
+    n = 20000
+    s = rng.normal(size=n)
+    t = rng.integers(0, 2, n)
+    y = rng.binomial(1, np.where(s > np.quantile(s, 0.9), 0.3, 0.1) + 0.05 * t)
+    d = metrics.deciles(s, t, y)
+    assert len(d) == 10 and sum(r["n"] for r in d) == n
+    assert d[0]["rate_control"] > d[-1]["rate_control"]
+    assert all(abs(r["uplift"] - 0.05) < 0.05 for r in d)

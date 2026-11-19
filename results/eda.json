@@ -1,0 +1,1421 @@
+{
+  "n_rows": 13979592,
+  "overview": [
+    {
+      "treatment": 0,
+      "n_users": 2096937,
+      "share": 0.1499998712408774,
+      "visits": 80105.0,
+      "conversions": 4063.0,
+      "visit_rate": 0.03820095691954503,
+      "conversion_rate": 0.0019375880152813366,
+      "exposure_rate": 0.0
+    },
+    {
+      "treatment": 1,
+      "n_users": 11882655,
+      "share": 0.8500001287591226,
+      "visits": 576824.0,
+      "conversions": 36711.0,
+      "visit_rate": 0.048543360048743316,
+      "conversion_rate": 0.0030894610674129645,
+      "exposure_rate": 0.036036727482199896
+    }
+  ],
+  "file_order": [
+    {
+      "block": 1,
+      "n_users": 698980,
+      "treatment_share": 1.0,
+      "visit_rate": 0.025299722452716816,
+      "conversion_rate": 0.004848493519127872
+    },
+    {
+      "block": 2,
+      "n_users": 698980,
+      "treatment_share": 1.0,
+      "visit_rate": 0.024823313971787463,
+      "conversion_rate": 0.004589544765229334
+    },
+    {
+      "block": 3,
+      "n_users": 698980,
+      "treatment_share": 1.0,
+      "visit_rate": 0.0251151678159604,
+      "conversion_rate": 0.004935763541159976
+    },
+    {
+      "block": 4,
+      "n_users": 698980,
+      "treatment_share": 1.0,
+      "visit_rate": 0.024791839537611948,
+      "conversion_rate": 0.004676814787261438
+    },
+    {
+      "block": 5,
+      "n_users": 698980,
+      "treatment_share": 1.0,
+      "visit_rate": 0.0252353429282669,
+      "conversion_rate": 0.004882829265501159
+    },
+    {
+      "block": 6,
+      "n_users": 698980,
+      "treatment_share": 1.0,
+      "visit_rate": 0.024821883315688575,
+      "conversion_rate": 0.004716873158030273
+    },
+    {
+      "block": 7,
+      "n_users": 698980,
+      "treatment_share": 1.0,
+      "visit_rate": 0.02487481759134739,
+      "conversion_rate": 0.004761223497095768
+    },
+    {
+      "block": 8,
+      "n_users": 698980,
+      "treatment_share": 0.9713282211222066,
+      "visit_rate": 0.025159518155025894,
+      "conversion_rate": 0.004629603135998169
+    },
+    {
+      "block": 9,
+      "n_users": 698980,
+      "treatment_share": 0.0,
+      "visit_rate": 0.0224183810695585,
+      "conversion_rate": 0.0034478811983175484
+    },
+    {
+      "block": 10,
+      "n_users": 698980,
+      "treatment_share": 0.2676600188846605,
+      "visit_rate": 0.043263040430341355,
+      "conversion_rate": 0.0019485536066840253
+    },
+    {
+      "block": 11,
+      "n_users": 698980,
+      "treatment_share": 1.0,
+      "visit_rate": 0.06297891212910241,
+      "conversion_rate": 0.0014707144696557842
+    },
+    {
+      "block": 12,
+      "n_users": 698980,
+      "treatment_share": 0.7400826919225156,
+      "visit_rate": 0.06187158430856391,
+      "conversion_rate": 0.0012561160548227417
+    },
+    {
+      "block": 13,
+      "n_users": 698979,
+      "treatment_share": 0.8277902483479475,
+      "visit_rate": 0.08183364593213815,
+      "conversion_rate": 0.0018527022986384427
+    },
+    {
+      "block": 14,
+      "n_users": 698979,
+      "treatment_share": 1.0,
+      "visit_rate": 0.08554620382014338,
+      "conversion_rate": 0.0020787462856537895
+    },
+    {
+      "block": 15,
+      "n_users": 698979,
+      "treatment_share": 0.6209313870659919,
+      "visit_rate": 0.07852453364121097,
+      "conversion_rate": 0.0014649939411627531
+    },
+    {
+      "block": 16,
+      "n_users": 698979,
+      "treatment_share": 0.9732567072830515,
+      "visit_rate": 0.08505405741803401,
+      "conversion_rate": 0.00147071657374542
+    },
+    {
+      "block": 17,
+      "n_users": 698979,
+      "treatment_share": 1.0,
+      "visit_rate": 0.08628871539774442,
+      "conversion_rate": 0.0016738700304300988
+    },
+    {
+      "block": 18,
+      "n_users": 698979,
+      "treatment_share": 0.949037095535059,
+      "visit_rate": 0.028767673993067032,
+      "conversion_rate": 0.0005479420697903657
+    },
+    {
+      "block": 19,
+      "n_users": 698979,
+      "treatment_share": 0.6499165210972003,
+      "visit_rate": 0.024837656066920465,
+      "conversion_rate": 0.0006180443189280364
+    },
+    {
+      "block": 20,
+      "n_users": 698979,
+      "treatment_share": 1.0,
+      "visit_rate": 0.07833425610783729,
+      "conversion_rate": 0.0024621626686924785
+    }
+  ],
+  "duplicates": [
+    {
+      "group_size_capped": 1,
+      "n_groups": 11167878,
+      "n_rows": 11167878.0,
+      "share_mixed_arms": 0.0
+    },
+    {
+      "group_size_capped": 2,
+      "n_groups": 883458,
+      "n_rows": 1766916.0,
+      "share_mixed_arms": 0.2573806564658422
+    },
+    {
+      "group_size_capped": 3,
+      "n_groups": 209059,
+      "n_rows": 627177.0,
+      "share_mixed_arms": 0.3861254478400834
+    },
+    {
+      "group_size_capped": 4,
+      "n_groups": 62429,
+      "n_rows": 249716.0,
+      "share_mixed_arms": 0.47918435342549137
+    },
+    {
+      "group_size_capped": 5,
+      "n_groups": 30509,
+      "n_rows": 167905.0,
+      "share_mixed_arms": 0.5894981808646629
+    }
+  ],
+  "rows_in_duplicate_groups": 2811714,
+  "n_distinct_feature_vectors": 12353333,
+  "balance": [
+    {
+      "feature": "f0",
+      "mean_treated": 19.61475504052869,
+      "mean_control": 19.651704714747694,
+      "smd": -0.006865619268604644,
+      "sd_ratio": 0.9976711650100026
+    },
+    {
+      "feature": "f1",
+      "mean_treated": 10.070336700076009,
+      "mean_control": 10.067935425597188,
+      "smd": 0.023994393602558686,
+      "sd_ratio": 1.1473654819625128
+    },
+    {
+      "feature": "f2",
+      "mean_treated": 8.446301578406628,
+      "mean_control": 8.448173104035549,
+      "smd": -0.006240988942054465,
+      "sd_ratio": 0.9946732864191292
+    },
+    {
+      "feature": "f3",
+      "mean_treated": 4.169411678216666,
+      "mean_control": 4.232820995831207,
+      "smd": -0.04883634032151431,
+      "sd_ratio": 1.088889875115954
+    },
+    {
+      "feature": "f4",
+      "mean_treated": 10.33924522788302,
+      "mean_control": 10.336525673189199,
+      "smd": 0.00796566082053343,
+      "sd_ratio": 1.0160480699172252
+    },
+    {
+      "feature": "f5",
+      "mean_treated": 4.02660247353055,
+      "mean_control": 4.039338816427849,
+      "smd": -0.030556830466659458,
+      "sd_ratio": 1.1049363179638516
+    },
+    {
+      "feature": "f6",
+      "mean_treated": -4.182792391368404,
+      "mean_control": -3.9998797255316565,
+      "smd": -0.040448068798319047,
+      "sd_ratio": 1.035784664079491
+    },
+    {
+      "feature": "f7",
+      "mean_treated": 5.1055552924413306,
+      "mean_control": 5.080284299013778,
+      "smd": 0.021269530175646173,
+      "sd_ratio": 1.0422672997120044
+    },
+    {
+      "feature": "f8",
+      "mean_treated": 3.9333918541204036,
+      "mean_control": 3.9346517474108773,
+      "smd": -0.022433335976235716,
+      "sd_ratio": 1.0256817963601137
+    },
+    {
+      "feature": "f9",
+      "mean_treated": 16.052588743687338,
+      "mean_control": 15.886252509897435,
+      "smd": 0.024001057711782993,
+      "sd_ratio": 1.0373540649799275
+    },
+    {
+      "feature": "f10",
+      "mean_treated": 5.333659813715425,
+      "mean_control": 5.331898099976493,
+      "smd": 0.010563462467951208,
+      "sd_ratio": 1.0253286375806878
+    },
+    {
+      "feature": "f11",
+      "mean_treated": -0.17098480630835322,
+      "mean_control": -0.17086774869042162,
+      "smd": -0.005159528430324969,
+      "sd_ratio": 1.0184990276393358
+    }
+  ],
+  "max_abs_smd": 0.04883634032151431,
+  "ate": {
+    "conversion": {
+      "n_treated": 11882655.0,
+      "n_control": 2096937.0,
+      "rate_treated": 0.0030894610674129645,
+      "rate_control": 0.0019375880152813366,
+      "ate": 0.0011518730521316279,
+      "se": 3.437168357507502e-05,
+      "ci_low": 0.0010845057897050894,
+      "ci_high": 0.0012192403145581663,
+      "relative_lift": 0.5944881177252619,
+      "bootstrap": {
+        "ci_low": 0.0010815825472676004,
+        "ci_high": 0.0012280271073427588,
+        "n_boot": 200
+      }
+    },
+    "visit": {
+      "n_treated": 11882655.0,
+      "n_control": 2096937.0,
+      "rate_treated": 0.048543360048743316,
+      "rate_control": 0.03820095691954503,
+      "ate": 0.010342403129198284,
+      "se": 0.00014631642098864926,
+      "ci_low": 0.010055628211451687,
+      "ci_high": 0.010629178046944882,
+      "relative_lift": 0.27073675539019604,
+      "bootstrap": {
+        "ci_low": 0.010072272504766123,
+        "ci_high": 0.010623717150425495,
+        "n_boot": 200
+      }
+    }
+  },
+  "splits": [
+    {
+      "split": "train",
+      "n_users": 8386079,
+      "treatment_share": 0.8500450568137982,
+      "visit_rate": 0.04699323724472426,
+      "conversion_rate": 0.0029144729020558952,
+      "n_groups": 7410516
+    },
+    {
+      "split": "val",
+      "n_users": 2796306,
+      "treatment_share": 0.8500786394622047,
+      "visit_rate": 0.04704313476422108,
+      "conversion_rate": 0.0029363739161593905,
+      "n_groups": 2471358
+    },
+    {
+      "split": "test",
+      "n_users": 2797207,
+      "treatment_share": 0.8497869481951104,
+      "visit_rate": 0.04693717697689159,
+      "conversion_rate": 0.0029036106373250175,
+      "n_groups": 2471459
+    }
+  ],
+  "treatment_runs": [
+    {
+      "run": 0.0,
+      "first_row": 0,
+      "n_users": 5571799,
+      "treatment": 1,
+      "visit_rate": 0.025020644140249855,
+      "conversion_rate": 0.004760042492559405
+    },
+    {
+      "run": 1.0,
+      "first_row": 5571799,
+      "n_users": 1230912,
+      "treatment": 0,
+      "visit_rate": 0.0280702438517132,
+      "conversion_rate": 0.0028978513492434878
+    },
+    {
+      "run": 2.0,
+      "first_row": 6802711,
+      "n_users": 1403372,
+      "treatment": 1,
+      "visit_rate": 0.06288282793158194,
+      "conversion_rate": 0.0014607673517784308
+    },
+    {
+      "run": 3.0,
+      "first_row": 8206083,
+      "n_users": 302048,
+      "treatment": 0,
+      "visit_rate": 0.05975540311473673,
+      "conversion_rate": 0.0006787000741603984
+    },
+    {
+      "run": 4.0,
+      "first_row": 8508131,
+      "n_users": 1711605,
+      "treatment": 1,
+      "visit_rate": 0.08583522483283235,
+      "conversion_rate": 0.0020880985975151975
+    },
+    {
+      "run": 5.0,
+      "first_row": 10219736,
+      "n_users": 283654,
+      "treatment": 0,
+      "visit_rate": 0.06686315017591855,
+      "conversion_rate": 0.00046183025799036853
+    },
+    {
+      "run": 6.0,
+      "first_row": 10503390,
+      "n_users": 2042622,
+      "treatment": 1,
+      "visit_rate": 0.06788040077899876,
+      "conversion_rate": 0.0012586763483405153
+    },
+    {
+      "run": 7.0,
+      "first_row": 12546012,
+      "n_users": 76808,
+      "treatment": 0,
+      "visit_rate": 0.0004817206540985314,
+      "conversion_rate": 2.603895427559629e-05
+    },
+    {
+      "run": 8.0,
+      "first_row": 12622820,
+      "n_users": 116597,
+      "treatment": 1,
+      "visit_rate": 0.00018010754993696236,
+      "conversion_rate": 8.576549996998207e-06
+    },
+    {
+      "run": 9.0,
+      "first_row": 12739417,
+      "n_users": 20575,
+      "treatment": 0,
+      "visit_rate": 4.860267314702309e-05,
+      "conversion_rate": 0.0
+    },
+    {
+      "run": 10.0,
+      "first_row": 12759992,
+      "n_users": 225574,
+      "treatment": 1,
+      "visit_rate": 0.00012856091570837065,
+      "conversion_rate": 3.9898215219839166e-05
+    },
+    {
+      "run": 11.0,
+      "first_row": 12985566,
+      "n_users": 182940,
+      "treatment": 0,
+      "visit_rate": 0.04646332130753252,
+      "conversion_rate": 0.0008636711490106045
+    },
+    {
+      "run": 12.0,
+      "first_row": 13168506,
+      "n_users": 811086,
+      "treatment": 1,
+      "visit_rate": 0.07834680909299384,
+      "conversion_rate": 0.002446103125932392
+    }
+  ],
+  "n_treatment_runs": 13,
+  "segments": {
+    "conversion": [
+      {
+        "feature": "f0",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.0018102713345027335,
+        "rate_control": 0.0015842125282037837,
+        "uplift": 0.00022605880629894982
+      },
+      {
+        "feature": "f0",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.009885175479631447,
+        "rate_control": 0.00615691127552946,
+        "uplift": 0.0037282642041019873
+      },
+      {
+        "feature": "f0",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.002362789915023698,
+        "rate_control": 0.0015820767048171645,
+        "uplift": 0.0007807132102065335
+      },
+      {
+        "feature": "f0",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0007436275542447862,
+        "rate_control": 0.0006360719986093332,
+        "uplift": 0.00010755555563545297
+      },
+      {
+        "feature": "f0",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.00046048801887508753,
+        "rate_control": 0.0003689008716264211,
+        "uplift": 9.15871472486664e-05
+      },
+      {
+        "feature": "f1",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.0025692644274079384,
+        "rate_control": 0.0017079809782023971,
+        "uplift": 0.0008612834492055413
+      },
+      {
+        "feature": "f1",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.0023192216223017503,
+        "rate_control": 0.001923674416452374,
+        "uplift": 0.00039554720584937617
+      },
+      {
+        "feature": "f1",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.002843559720572682,
+        "rate_control": 0.0016591872293421947,
+        "uplift": 0.0011843724912304874
+      },
+      {
+        "feature": "f1",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0031145958756887836,
+        "rate_control": 0.001570330664943887,
+        "uplift": 0.0015442652107448965
+      },
+      {
+        "feature": "f1",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.004525126683163675,
+        "rate_control": 0.0034463791114377924,
+        "uplift": 0.0010787475717258825
+      },
+      {
+        "feature": "f2",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 9.73511448842321e-05,
+        "rate_control": 5.436532663106435e-05,
+        "uplift": 4.298581825316775e-05
+      },
+      {
+        "feature": "f2",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 9.022146221713999e-05,
+        "rate_control": 6.871435442864014e-05,
+        "uplift": 2.1507107788499842e-05
+      },
+      {
+        "feature": "f2",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.010387910805610735,
+        "rate_control": 0.006229513115356631,
+        "uplift": 0.004158397690254103
+      },
+      {
+        "feature": "f2",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.004365472849195812,
+        "rate_control": 0.00274888439436258,
+        "uplift": 0.0016165884548332322
+      },
+      {
+        "feature": "f2",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.00056327885960292,
+        "rate_control": 0.00042322402658473884,
+        "uplift": 0.0001400548330181812
+      },
+      {
+        "feature": "f3",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.010683914207806178,
+        "rate_control": 0.006373661551594647,
+        "uplift": 0.004310252656211531
+      },
+      {
+        "feature": "f3",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.001275488569790596,
+        "rate_control": 0.0005313104181117819,
+        "uplift": 0.0007441781516788141
+      },
+      {
+        "feature": "f3",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.001056156978279298,
+        "rate_control": 0.0009425218743618341,
+        "uplift": 0.00011363510391746389
+      },
+      {
+        "feature": "f3",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0011162017825136383,
+        "rate_control": 0.001168612567409647,
+        "uplift": -5.241078489600856e-05
+      },
+      {
+        "feature": "f3",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.0012110254740140018,
+        "rate_control": 0.0010555285544327727,
+        "uplift": 0.00015549691958122907
+      },
+      {
+        "feature": "f4",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.0008951157530957897,
+        "rate_control": 0.0005263353228358677,
+        "uplift": 0.00036878043025992196
+      },
+      {
+        "feature": "f4",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.0008381757703056277,
+        "rate_control": 0.00046321794221812094,
+        "uplift": 0.00037495782808750675
+      },
+      {
+        "feature": "f4",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.000865933134962658,
+        "rate_control": 0.0005355237802075471,
+        "uplift": 0.00033040935475511085
+      },
+      {
+        "feature": "f4",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0008385279652293263,
+        "rate_control": 0.00042035525408139803,
+        "uplift": 0.00041817271114792827
+      },
+      {
+        "feature": "f4",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.011373251175844742,
+        "rate_control": 0.011411810670072133,
+        "uplift": -3.8559494227390426e-05
+      },
+      {
+        "feature": "f5",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.0070464743556198405,
+        "rate_control": 0.0043234692664855315,
+        "uplift": 0.002723005089134309
+      },
+      {
+        "feature": "f5",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.002235679203762754,
+        "rate_control": 0.001503802678063908,
+        "uplift": 0.000731876525698846
+      },
+      {
+        "feature": "f5",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.0021545181364925276,
+        "rate_control": 0.0011730928434290947,
+        "uplift": 0.0009814252930634329
+      },
+      {
+        "feature": "f5",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0019856637084524563,
+        "rate_control": 0.0018201154881121477,
+        "uplift": 0.00016554822034030867
+      },
+      {
+        "feature": "f5",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.0019337901848624397,
+        "rate_control": 0.0012142919260860184,
+        "uplift": 0.0007194982587764214
+      },
+      {
+        "feature": "f6",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.009668802008119764,
+        "rate_control": 0.0058004348227551645,
+        "uplift": 0.0038683671853645997
+      },
+      {
+        "feature": "f6",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.0018396740907642875,
+        "rate_control": 0.0011754334410813989,
+        "uplift": 0.0006642406496828886
+      },
+      {
+        "feature": "f6",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.0009270526757723841,
+        "rate_control": 0.0008162386978766663,
+        "uplift": 0.00011081397789571771
+      },
+      {
+        "feature": "f6",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0010512113468236419,
+        "rate_control": 0.0011651101139669418,
+        "uplift": -0.00011389876714329992
+      },
+      {
+        "feature": "f6",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.0018192297745668238,
+        "rate_control": 0.0011912065668620664,
+        "uplift": 0.0006280232077047574
+      },
+      {
+        "feature": "f7",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.0025457737194375316,
+        "rate_control": 0.0014029171118339983,
+        "uplift": 0.0011428566076035333
+      },
+      {
+        "feature": "f7",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.0021651554821570896,
+        "rate_control": 0.0023973193610780674,
+        "uplift": -0.00023216387892097774
+      },
+      {
+        "feature": "f7",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.00223546714620295,
+        "rate_control": 0.0017248949382173994,
+        "uplift": 0.0005105722079855506
+      },
+      {
+        "feature": "f7",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.00201305401429303,
+        "rate_control": 0.0009951523693595575,
+        "uplift": 0.0010179016449334726
+      },
+      {
+        "feature": "f7",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.006419447431526357,
+        "rate_control": 0.003853872595011002,
+        "uplift": 0.002565574836515355
+      },
+      {
+        "feature": "f8",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.014109017890758998,
+        "rate_control": 0.009479082632246168,
+        "uplift": 0.004629935258512829
+      },
+      {
+        "feature": "f8",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.0008439721453997183,
+        "rate_control": 0.000463841779281474,
+        "uplift": 0.00038013036611824434
+      },
+      {
+        "feature": "f8",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.00018162005085361425,
+        "rate_control": 0.00012077859335795659,
+        "uplift": 6.084145749565766e-05
+      },
+      {
+        "feature": "f8",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 9.089442225320931e-05,
+        "rate_control": 6.589479314849198e-05,
+        "uplift": 2.499962910471733e-05
+      },
+      {
+        "feature": "f8",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 9.415243628146697e-05,
+        "rate_control": 5.7525578337510785e-05,
+        "uplift": 3.6626857943956185e-05
+      },
+      {
+        "feature": "f9",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.00036960493182763995,
+        "rate_control": 0.0001965423953508089,
+        "uplift": 0.00017306253647683104
+      },
+      {
+        "feature": "f9",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.0004007373059166454,
+        "rate_control": 0.0002197297324291122,
+        "uplift": 0.0001810075734875332
+      },
+      {
+        "feature": "f9",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.0003406421558277027,
+        "rate_control": 0.00025602409638554217,
+        "uplift": 8.461805944216051e-05
+      },
+      {
+        "feature": "f9",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0003408167367234403,
+        "rate_control": 0.0002689688998117218,
+        "uplift": 7.184783691171852e-05
+      },
+      {
+        "feature": "f9",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.013866888748924987,
+        "rate_control": 0.009202831893294787,
+        "uplift": 0.0046640568556302
+      },
+      {
+        "feature": "f10",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.0008632861508449978,
+        "rate_control": 0.0004286185295087372,
+        "uplift": 0.0004346676213362606
+      },
+      {
+        "feature": "f10",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.0009113194077740113,
+        "rate_control": 0.000518561924072163,
+        "uplift": 0.0003927574837018483
+      },
+      {
+        "feature": "f10",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.0008436577723489648,
+        "rate_control": 0.00046220757018037233,
+        "uplift": 0.00038145020216859244
+      },
+      {
+        "feature": "f10",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0008248752275459962,
+        "rate_control": 0.00044560915832917786,
+        "uplift": 0.0003792660692168184
+      },
+      {
+        "feature": "f10",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.011379941714600925,
+        "rate_control": 0.011411185163720661,
+        "uplift": -3.1243449119736436e-05
+      },
+      {
+        "feature": "f11",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.00924583873871209,
+        "rate_control": 0.006415786487599773,
+        "uplift": 0.002830052251112318
+      },
+      {
+        "feature": "f11",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.0015029255596316685,
+        "rate_control": 0.000917340372875763,
+        "uplift": 0.0005855851867559055
+      },
+      {
+        "feature": "f11",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.001686298952112406,
+        "rate_control": 0.0010399018519600398,
+        "uplift": 0.0006463971001523662
+      },
+      {
+        "feature": "f11",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0015752735300801923,
+        "rate_control": 0.00024787483778778997,
+        "uplift": 0.0013273986922924023
+      },
+      {
+        "feature": "f11",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.001421203841455117,
+        "rate_control": 0.0008234710931849641,
+        "uplift": 0.0005977327482701529
+      }
+    ],
+    "visit": [
+      {
+        "feature": "f0",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.053757243986376844,
+        "rate_control": 0.05207655773626318,
+        "uplift": 0.0016806862501136666
+      },
+      {
+        "feature": "f0",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.11385973794416593,
+        "rate_control": 0.08049042419903348,
+        "uplift": 0.03336931374513245
+      },
+      {
+        "feature": "f0",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.04300975754427073,
+        "rate_control": 0.03435152529539522,
+        "uplift": 0.008658232248875505
+      },
+      {
+        "feature": "f0",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.017791600162629144,
+        "rate_control": 0.0158701312041467,
+        "uplift": 0.0019214689584824453
+      },
+      {
+        "feature": "f0",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.012973107499697694,
+        "rate_control": 0.012197275627818265,
+        "uplift": 0.0007758318718794292
+      },
+      {
+        "feature": "f1",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.03526926673028437,
+        "rate_control": 0.04306241380844344,
+        "uplift": -0.00779314707815907
+      },
+      {
+        "feature": "f1",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.04124832292902525,
+        "rate_control": 0.0323280278707562,
+        "uplift": 0.008920295058269051
+      },
+      {
+        "feature": "f1",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.051285518425382884,
+        "rate_control": 0.04508897207629473,
+        "uplift": 0.0061965463490881514
+      },
+      {
+        "feature": "f1",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.04623061916321533,
+        "rate_control": 0.024571947117605186,
+        "uplift": 0.021658672045610144
+      },
+      {
+        "feature": "f1",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.06853608126937838,
+        "rate_control": 0.054929835978041415,
+        "uplift": 0.013606245291336964
+      },
+      {
+        "feature": "f2",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.0014523526597966707,
+        "rate_control": 0.0008001675887482013,
+        "uplift": 0.0006521850710484694
+      },
+      {
+        "feature": "f2",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.0014292922504125427,
+        "rate_control": 0.0010672738268881852,
+        "uplift": 0.0003620184235243575
+      },
+      {
+        "feature": "f2",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.13921077046196556,
+        "rate_control": 0.10565748889542469,
+        "uplift": 0.033553281566540874
+      },
+      {
+        "feature": "f2",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0897617967205033,
+        "rate_control": 0.06954878166233266,
+        "uplift": 0.020213015058170636
+      },
+      {
+        "feature": "f2",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.012058105624982858,
+        "rate_control": 0.008891623299266412,
+        "uplift": 0.003166482325716447
+      },
+      {
+        "feature": "f3",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.12121134733954846,
+        "rate_control": 0.08458160195811422,
+        "uplift": 0.03662974538143424
+      },
+      {
+        "feature": "f3",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.025960646449381057,
+        "rate_control": 0.030487299262002818,
+        "uplift": -0.004526652812621761
+      },
+      {
+        "feature": "f3",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.03280049719968811,
+        "rate_control": 0.02576981156851159,
+        "uplift": 0.0070306856311765226
+      },
+      {
+        "feature": "f3",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.02637911667473074,
+        "rate_control": 0.023771126904155497,
+        "uplift": 0.002607989770575244
+      },
+      {
+        "feature": "f3",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.034800382503906,
+        "rate_control": 0.032538652850634266,
+        "uplift": 0.0022617296532717324
+      },
+      {
+        "feature": "f4",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.03533172580089562,
+        "rate_control": 0.03144659660812703,
+        "uplift": 0.003885129192768594
+      },
+      {
+        "feature": "f4",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.04075790556009559,
+        "rate_control": 0.026811062769111712,
+        "uplift": 0.01394684279098388
+      },
+      {
+        "feature": "f4",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.03527868925104709,
+        "rate_control": 0.03446322105995115,
+        "uplift": 0.0008154681910959374
+      },
+      {
+        "feature": "f4",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.031162316411450515,
+        "rate_control": 0.0233853402149723,
+        "uplift": 0.007776976196478214
+      },
+      {
+        "feature": "f4",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.10829399620819782,
+        "rate_control": 0.05648939980472679,
+        "uplift": 0.051804596403471036
+      },
+      {
+        "feature": "f5",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.0664070450275997,
+        "rate_control": 0.06562506728291839,
+        "uplift": 0.0007819777446813059
+      },
+      {
+        "feature": "f5",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.041155425871759646,
+        "rate_control": 0.034245720202992005,
+        "uplift": 0.006909705668767641
+      },
+      {
+        "feature": "f5",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.04344404506060229,
+        "rate_control": 0.03811238614933997,
+        "uplift": 0.005331658911262319
+      },
+      {
+        "feature": "f5",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.044881241213858086,
+        "rate_control": 0.03151930114508322,
+        "uplift": 0.013361940068774864
+      },
+      {
+        "feature": "f5",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.04476005240130054,
+        "rate_control": 0.035580743925477165,
+        "uplift": 0.009179308475823378
+      },
+      {
+        "feature": "f6",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.10837740796058246,
+        "rate_control": 0.07071231200826847,
+        "uplift": 0.03766509595231399
+      },
+      {
+        "feature": "f6",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.03580674293649343,
+        "rate_control": 0.029922173539003262,
+        "uplift": 0.005884569397490165
+      },
+      {
+        "feature": "f6",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.018305354383831483,
+        "rate_control": 0.016787179161909596,
+        "uplift": 0.0015181752219218872
+      },
+      {
+        "feature": "f6",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.027269711456198123,
+        "rate_control": 0.020250966903179266,
+        "uplift": 0.007018744553018857
+      },
+      {
+        "feature": "f6",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.05287496885132322,
+        "rate_control": 0.05155638990970272,
+        "uplift": 0.0013185789416205046
+      },
+      {
+        "feature": "f7",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.03771661018050087,
+        "rate_control": 0.036633161542205916,
+        "uplift": 0.0010834486382949524
+      },
+      {
+        "feature": "f7",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.04056716705914303,
+        "rate_control": 0.03239070296171321,
+        "uplift": 0.008176464097429822
+      },
+      {
+        "feature": "f7",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.04102386985404149,
+        "rate_control": 0.042937069284079636,
+        "uplift": -0.0019131994300381483
+      },
+      {
+        "feature": "f7",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.047347929017236993,
+        "rate_control": 0.02910317168242619,
+        "uplift": 0.018244757334810804
+      },
+      {
+        "feature": "f7",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.07620232658336924,
+        "rate_control": 0.05963193433072951,
+        "uplift": 0.016570392252639732
+      },
+      {
+        "feature": "f8",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.21235487856232518,
+        "rate_control": 0.17524083985179087,
+        "uplift": 0.037114038710534314
+      },
+      {
+        "feature": "f8",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.021508163828769303,
+        "rate_control": 0.016264583160955543,
+        "uplift": 0.00524358066781376
+      },
+      {
+        "feature": "f8",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.00471702898183183,
+        "rate_control": 0.0030224495977920636,
+        "uplift": 0.0016945793840397664
+      },
+      {
+        "feature": "f8",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.0015258903187855115,
+        "rate_control": 0.0010479508312799162,
+        "uplift": 0.0004779394875055953
+      },
+      {
+        "feature": "f8",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.0014593050340410963,
+        "rate_control": 0.000992540068842579,
+        "uplift": 0.0004667649651985172
+      },
+      {
+        "feature": "f9",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.006790988398123823,
+        "rate_control": 0.004801067389925414,
+        "uplift": 0.0019899210081984094
+      },
+      {
+        "feature": "f9",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.007042051316294677,
+        "rate_control": 0.005544391313786942,
+        "uplift": 0.001497660002507735
+      },
+      {
+        "feature": "f9",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.008419630445308718,
+        "rate_control": 0.005522285737329744,
+        "uplift": 0.0028973447079789737
+      },
+      {
+        "feature": "f9",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.009298821809773273,
+        "rate_control": 0.005591348770254375,
+        "uplift": 0.003707473039518898
+      },
+      {
+        "feature": "f9",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.21095100098370245,
+        "rate_control": 0.1715344807418492,
+        "uplift": 0.03941652024185324
+      },
+      {
+        "feature": "f10",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.0264414582481991,
+        "rate_control": 0.022442671541093064,
+        "uplift": 0.003998786707106038
+      },
+      {
+        "feature": "f10",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.03740757390640039,
+        "rate_control": 0.03195250101380538,
+        "uplift": 0.00545507289259501
+      },
+      {
+        "feature": "f10",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.03648035125867226,
+        "rate_control": 0.036945429528497366,
+        "uplift": -0.0004650782698251074
+      },
+      {
+        "feature": "f10",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.04438588137678734,
+        "rate_control": 0.020236629634573833,
+        "uplift": 0.024149251742213506
+      },
+      {
+        "feature": "f10",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.09830687670444611,
+        "rate_control": 0.08944415477925284,
+        "uplift": 0.008862721925193273
+      },
+      {
+        "feature": "f11",
+        "quintile": 1,
+        "n_users": 1677216,
+        "rate_treated": 0.07029643129887228,
+        "rate_control": 0.0731504889621771,
+        "uplift": -0.002854057663304821
+      },
+      {
+        "feature": "f11",
+        "quintile": 2,
+        "n_users": 1677216,
+        "rate_treated": 0.04606044443396699,
+        "rate_control": 0.033073382446748636,
+        "uplift": 0.012987061987218357
+      },
+      {
+        "feature": "f11",
+        "quintile": 3,
+        "n_users": 1677216,
+        "rate_treated": 0.035563239904740945,
+        "rate_control": 0.028793398930934275,
+        "uplift": 0.00676984097380667
+      },
+      {
+        "feature": "f11",
+        "quintile": 4,
+        "n_users": 1677216,
+        "rate_treated": 0.04081279922568602,
+        "rate_control": 0.025849524654230994,
+        "uplift": 0.014963274571455028
+      },
+      {
+        "feature": "f11",
+        "quintile": 5,
+        "n_users": 1677215,
+        "rate_treated": 0.048574969190089815,
+        "rate_control": 0.04402131149095115,
+        "uplift": 0.004553657699138666
+      }
+    ]
+  }
+}
